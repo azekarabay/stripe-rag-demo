@@ -82,8 +82,6 @@ Both Cloud Functions are designed for stateless execution and rely on environmen
 
 **Deploy the embedding function**
 
-    ```bash
-  
     gcloud functions deploy embed-texts \
       --runtime python310 \
       --region YOUR_REGION \
@@ -95,8 +93,6 @@ Both Cloud Functions are designed for stateless execution and rely on environmen
 
 **Deploy the RAG function**
    
-    ```bash
-    
     gcloud functions deploy rag-poc-function \
       --runtime python310 \
       --region YOUR_REGION \
@@ -117,8 +113,6 @@ Trigger embed-texts with the document payload or ingestion request. This populat
 **Ask questions**
 
 Send an HTTP request to rag-poc-function with a JSON body such as:
-
-    ```json
     
     {
       "question": "How do I create a Stripe checkout session?"
