@@ -1,0 +1,5 @@
+# Files excluded when using gcloud deploy
+.env
+venv/
+__pycache__/
+*.pyc
