@@ -25,6 +25,7 @@ Both Cloud Functions are designed for stateless execution and rely on environmen
 
 ## Repository Structure
 
+<pre>
 .
 ├── .gitignore
 ├── env.sample.yaml
@@ -38,6 +39,7 @@ Both Cloud Functions are designed for stateless execution and rely on environmen
     ├── requirements.txt
     ├── utils.py
     └── vectorstore.py
+</pre>
 
 - `env.sample.yaml`: Template for environment variables required by the Cloud Functions.
 - `functions/embed-texts`: Cloud Function code for embedding ingestion.
