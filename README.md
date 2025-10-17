@@ -29,15 +29,15 @@ Both Cloud Functions are designed for stateless execution and rely on environmen
 ├── .gitignore
 ├── env.sample.yaml
 ├── functions
-│ └── embed-texts
-│ ├── main.py
-│ └── requirements.txt
+│   └── embed-texts
+│       ├── main.py
+│       └── requirements.txt
 └── rag_poc_function
-├── .gcloudignore
-├── main.py
-├── requirements.txt
-├── utils.py
-└── vectorstore.py
+    ├── .gcloudignore
+    ├── main.py
+    ├── requirements.txt
+    ├── utils.py
+    └── vectorstore.py
 
 - `env.sample.yaml`: Template for environment variables required by the Cloud Functions.
 - `functions/embed-texts`: Cloud Function code for embedding ingestion.
